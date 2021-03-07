@@ -1,4 +1,4 @@
-package com.alogrithms.exceptions;
+package com.alogrithms;
 
 import lombok.Getter;
 

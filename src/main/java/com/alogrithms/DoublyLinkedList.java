@@ -1,4 +1,8 @@
-package com.alogrithms.exceptions;
+package com.alogrithms;
+
+
+
+import com.alogrithms.exceptions.InvalidElementException;
 
 import java.util.NoSuchElementException;
 
@@ -31,7 +35,7 @@ public class DoublyLinkedList<E> {
 
     public DoublyLinkedLIstNode<E> addElementAtEnd(E element){
         if(element == null){
-            throw new InvalidElementException;
+            throw new InvalidElementException();
         }
         DoublyLinkedLIstNode<E> newNode = new DoublyLinkedLIstNode<>(element);
         addNodeAtEnd(newNode);

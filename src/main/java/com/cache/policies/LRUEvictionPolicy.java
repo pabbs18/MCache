@@ -1,7 +1,7 @@
 package com.cache.policies;
 
-import com.alogrithms.exceptions.DoublyLinkedLIstNode;
-import com.alogrithms.exceptions.DoublyLinkedList;
+import com.alogrithms.DoublyLinkedLIstNode;
+import com.alogrithms.DoublyLinkedList;
 
 import java.util.HashMap;
 import java.util.Map;
